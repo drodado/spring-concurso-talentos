@@ -4,11 +4,8 @@ import org.springframework.stereotype.Component;
 
 @Component("poema")
 public class Soneto implements Poema {
-
 	public void recitar() {
-		// Implementación del soneto
-		String sonetoPasionSorJuana = 
-				"Este, que ves, engaño colorido, \n"
+		String sonetoPasionSorJuana = "Este, que ves, engaño colorido, \n"
 				+ "que del arte ostentando los primores,\n"
 				+ "con falsos silogismos de colores\n"
 				+ "es cauteloso engaño del sentido; \n"
@@ -22,8 +19,6 @@ public class Soneto implements Poema {
 				+ "es una necia diligencia errada, \n"
 				+ "es un afán caduco y, bien mirado, \n"
 				+ "es cadáver, es polvo, es sombra, es nada. \n";
-		
 		System.out.println("\nSoneto:" + sonetoPasionSorJuana);
 	}
-
 }

@@ -4,8 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component("solei")
 public class Malabarista implements Concursante {
-
-	private int pelotas=10;
+	private int pelotas = 10;
 
 	public Malabarista() {
 	}
